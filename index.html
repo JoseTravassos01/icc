@@ -10,40 +10,24 @@
             <b>O GitHub é uma plataforma essencial para o desenvolvimento de software. Ele oferece controle de versão, facilita a colaboração entre desenvolvedores, compartilha código-fonte aberto, permite a criação de portfólios e oferece integração com várias ferramentas.
                  Além disso, o GitHub possui recursos para gerenciamento de problemas e solicitações de recursos. 
                 Em resumo, o GitHub é importante por sua capacidade de promover a colaboração, o compartilhamento e o controle eficiente de código.</b>
-                <table>
-                    <tr>
-                        <td><small> Criar uma nova branch: O comando git branch <i>nome-da-branch</i> </small></td>
-                    </tr>
-                    <tr>
-                        <td><small> Listar branches: O comando git branch  </small></td>
-                    </tr>
-                    <tr>
-                        <td><small> Mudar para uma branch: O comando git checkout <i>nome-da-branch</i>  </small></td>
-                    </tr>
-                    <tr>
-                        <td><small> Renomear uma branch: O comando git branch <i>-m novo-nome</i> </small></td>
-                    </tr>
-                    <tr>
-                        <td><small> Excluir uma branch: O comando git branch <i>-d nome-da-branch</i> </small></td>
-                    </tr>
-                </table>
+               
             
             <h3>Comando <mark>"git init"</mark></h3>
-            <p>O comando git init cria um novo repositório Git vazio em um diretório, configurando o controle de versão do Git para o projeto. Ele cria uma pasta oculta chamada ".git" que armazena os arquivos e metadados necessários. Com o repositório inicializado, é possível rastrear alterações, criar branches, fazer commits e controlar o histórico do código-fonte</p>
+            <p>O comando git init cria um novo repositório Git vazio em um diretório, configurando o controle de versão do Git para o projeto. Com o repositório inicializado, é possível rastrear alterações, criar branches, fazer commits e controlar o histórico do código-fonte</p>
             <ol>
                 <li>Criar um repositório em um novo ou reautiliza um que já existe</li>
                 <img src="img/iccccc.png" alt=init title="init" />    
             </ol>
             
             <h3>Comando <mark>"git clone"</mark></h3>
-            <p>O comando git clone cria uma cópia local de um repositório Git remoto. Ele baixa todo o histórico de commits, arquivos e branches do repositório para o seu ambiente de desenvolvimento local. Essa cópia permite que você trabalhe no projeto e sincronize as alterações com o repositório remoto através de comandos como git push e git pull. É uma forma eficiente de iniciar o trabalho em um projeto existente.</p>
+            <p>O comando git clone cria uma cópia local de um repositório Git remoto. Essa cópia permite que você trabalhe no projeto e sincronizandoas alterações com o repositório remoto através de comandos como <o>git push e git pull.</o></p>
             <ol>
                 <li>clona um repositório em um novo</li>
                 <img src="img/clone.jpeg" alt=init title="init" />    
             </ol>
 
             <h3>Comando <mark>"git branch"</mark></h3>
-            <p> O comando git branch no Git permite criar, listar e manipular branches em um repositório. As branches são versões paralelas do código-fonte que permitem o desenvolvimento independente. Com o git branch, é possível criar novas branches, listar as existentes, mudar para uma branch específica, renomear e excluir branches. Essa funcionalidade é essencial para gerenciar diferentes fluxos de trabalho e controlar as alterações em um projeto. </p>
+            <p> O comando git branch no Git permite criar, listar e alterar branches em um repositório.  Essa funcionalidade é de extrema importância para gerenciar diferentes trabalhos e controlar as alterações em um projeto. </p>
             <ol>
                 <li>Lista todas as branches do repositório</li>
                 <img src="img/branch1.jpeg" alt=init title="init" />  
@@ -94,7 +78,7 @@
             </ol>
 
             <h3>Comando <mark>"git push"</mark></h3>
-            <p> O comando git push é usado para enviar as alterações confirmadas de um repositório local para um repositório remoto. Ele atualiza o repositório remoto com as alterações feitas no local. O git push permite compartilhar o código com outros membros da equipe ou disponibilizá-lo publicamente. É uma parte importante do fluxo de trabalho do Git.</p>
+            <p> O comando git push é usado para enviar as alterações confirmadas de um repositório local para um repositório remoto. O git push permite compartilhar o código com outros membros da equipe ou disponibilizá-lo publicamente.</p>
             <ol>
                 <li>Envia alterações do branch atual para o repositório remoto origin</li>
                 <img src="img/push.jpeg" alt=init title="init" />    
@@ -122,79 +106,77 @@
             </ol>
 
             <h3>Comando <mark>"git stash"</mark></h3>
-            <p>O comando git stash no Git é usado para salvar alterações locais em uma área temporária chamada "stash". Ele permite limpar o diretório de trabalho e a área de staging, deixando-os livres para outras tarefas ou mudanças de branch. Posteriormente, você pode aplicar as alterações salvas ou gerenciar múltiplos stashes. O git stash é útil para armazenar temporariamente alterações sem perdê-las.</p>
+            <p>O comando git stash no Git é usado para salvar alterações locais em uma área temporária chamada "stash". Ele permite limpar o diretório de trabalho e a área de staging, deixando-os livres para outras tarefas ou mudanças de branch. O git stash é útil para armazenar temporariamente alterações sem perdê-las.</p>
             <ol>
                 <li>salva alterção local</li>
                 <img src="img/stash.jpeg" alt=init title="init" />    
             </ol>
 
             <h3>Comando <mark>"git rm"</mark></h3>
-            <p>O comando git rm no Git é usado para remover arquivos do repositório Git e do diretório de trabalho local. Ele permite indicar ao Git que um arquivo deve ser excluído do controle de versão. O git rm pode remover arquivos individualmente ou em lotes, de forma recursiva em diretórios e subdiretórios. É necessário fazer um commit após usar o git rm para aplicar a remoção ao histórico do Git.</p>
+            <p>O comando git rm no Git é usado para remover arquivos do repositório Git e do diretório de trabalho local. Ele permite indicar ao Git que um arquivo deve ser excluído do controle de versão. O git rm pode remover arquivos , diretórios e subdiretórios.</p>
             <ol>
                 <li>Remove arquivo da Working Tree</li>
                 <img src="img/rm.jpeg" alt=init title="init" />    
             </ol>
 
-            <a href="video.html">Clique aqui para se arrepender</a>
-            <a href="audio.html">Audio</a>
-
-
             <h3>Comando <mark>"git config"</mark></h3>
             <p>O comando git config no Git é usado para configurar diversas opções e preferências relacionadas ao repositório Git local. Ele permite definir informações de identidade, personalizar a aparência, gerenciar credenciais e configurar ferramentas externas. O git config é uma ferramenta essencial para personalizar e adaptar o Git às necessidades individuais e de projeto.</p>
 
             <h3>Comando <mark>"git reset"</mark></h3>
-            <p>O comando git reset no Git tem a funcionalidade de desfazer alterações, mover o HEAD e a branch atual para um commit específico ou redefinir o estado do diretório de trabalho. Ele oferece diferentes modos de reset, permitindo desfazer commits, refazer um commit anterior ou desfazer um merge. O git reset é uma ferramenta poderosa para gerenciar o histórico do Git, mas requer cuidado, pois pode afetar permanentemente o histórico e as alterações não salvas.</p>
+            <p>O comando git reset no Git tem a funcionalidade de desfazer alterações, mover o HEAD e a branch atual para um commit específico ou redefinir o estado do diretório de trabalho. Ele oferece diferentes modos de reset, permitindo desfazer commits, refazer um commit anterior ou desfazer um merge.</p>
             
             <h3>Comando <mark>"git remote"</mark></h3>
             <p>O comando git remote no Git é usado para gerenciar repositórios remotos. Ele permite visualizar, adicionar e remover repositórios remotos associados a um projeto Git. Com o git remote, é possível adicionar novos repositórios, renomear ou remover repositórios existentes e exibir detalhes sobre os repositórios remotos configurados.</p>
             <ol>
                 <li>Lista os repositórios remotos</li>
-                <img src="" alt=init title="init" />    
+                <img src="img/remote.jpeg" alt=init title="init" />    
             </ol>
 
             <h3>Comando <mark>"git fetch"</mark></h3>
             <p> comando git fetch no Git é usado para baixar as alterações mais recentes de um repositório remoto para o repositório local. Ele atualiza as referências locais, permitindo que você sincronize seu repositório local com o estado atual do repositório remoto.</p>
             <ol>
-                <li>clona um repositório em um novo</li>
-                <img src="c:\Users\Usuario\Desktop\icc\Captura de tela de 2023-07-13 19-59-02.png" alt=init title="init" />    
+                <li>Pega branches do repositório nome-repo</li>
+                <img src="img/fetch.jpeg" alt=init title="init" />    
             </ol>
 
             <h3>Comando <mark>"git show"</mark></h3>
             <p>O comando git show no Git é usado para exibir informações detalhadas sobre um objeto específico, como um commit, uma tag ou um blob. Ele mostra as alterações, o autor, a data e a mensagem do objeto, permitindo explorar o histórico e os metadados relacionados. O git show é uma ferramenta útil para visualizar detalhes e diferenças de objetos do Git.</p>
             <ol>
-                <li>clona um repositório em um novo</li>
-                <img src="c:\Users\Usuario\Desktop\icc\Captura de tela de 2023-07-13 19-59-02.png" alt=init title="init" />    
+                <li>Mostra a tag especificada</li>
+                <img src="img/show.jpeg" alt=init title="init" />    
             </ol>
 
             <h3>Comando <mark>"git help"</mark></h3>
             <p>O comando git help no Git é usado para obter informações de ajuda e acessar a documentação relacionada aos comandos do Git. Ele fornece detalhes sobre o uso correto dos comandos, opções disponíveis e conceitos relevantes do Git. O git help é uma ferramenta útil para obter assistência e orientação durante o trabalho com o Git.</p>
             <ol>
-                <li>clona um repositório em um novo</li>
-                <img src="c:\Users\Usuario\Desktop\icc\Captura de tela de 2023-07-13 19-59-02.png" alt=init title="init" />    
+                <li>para acessar ajuda quando necessário</li>
+                <img src="img/help.jpeg" alt=init title="init" />    
             </ol>
 
             <h3>Comando <mark>"git rebase"</mark></h3>
             <p>O comando git rebase no Git permite alterar a base de um branch movendo seus commits para outro ponto de partida. Ele reescreve o histórico de commits, aplicando as alterações feitas em um branch em cima de outro. O git rebase é útil para incorporar alterações de um branch em outro e reorganizar o histórico de commits.</p>
             <ol>
-                <li>clona um repositório em um novo</li>
-                <img src="c:\Users\Usuario\Desktop\icc\Captura de tela de 2023-07-13 19-59-02.png" alt=init title="init" />    
+                <li>Aplica alterações de outra-branch na atual</li>
+                <img src="img/rebase.jpeg" alt=init title="init" />    
             </ol>
 
             <h3>Comando <mark>"git blame"</mark></h3>
             <p>O comando git rebase no Git permite alterar a base de um branch movendo seus commits para outro ponto de partida. Ele reescreve o histórico de commits, aplicando as alterações feitas em um branch em cima de outro. O git rebase é útil para incorporar alterações de um branch em outro e reorganizar o histórico de commits.</p>
             <ol>
-                <li>clona um repositório em um novo</li>
-                <img src="c:\Users\Usuario\Desktop\icc\Captura de tela de 2023-07-13 19-59-02.png" alt=init title="init" />    
+                <li>Para alterar a base de um branch</li>
+                <img src="img/blame.jpeg" alt=init title="init" />    
             </ol>
 
             <h3>Comando <mark>"git tag"</mark></h3>
             <p>O comando git tag no Git é usado para criar, listar e gerenciar tags. As tags são usadas para marcar pontos específicos no histórico do projeto, como versões de lançamento. Com o git tag, é possível criar tags, listar as existentes, criar tags anotadas com informações adicionais, exibir detalhes de uma tag e compartilhar as tags com o repositório remoto. As tags são úteis para identificar facilmente versões importantes, criar builds estáveis e rastreáveis do código</p>
             <ol>
-                <li>clona um repositório em um novo</li>
-                <img src="c:\Users\Usuario\Desktop\icc\Captura de tela de 2023-07-13 19-59-02.png" alt=init title="init" />    
+                <li>Cria a tag com o nome nometag. Para remover a tag, apenas coloca-se o -d no lugar de -s</li>
+                <img src="img/tag.jpeg" alt=init title="init" />    
             </ol>
 
        
+            <a href="video.html">Clique aqui para se arrepender</a>
+            <a href="audio.html">Audio</a>
         </body>
 
 </html>
